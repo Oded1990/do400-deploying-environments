@@ -5,7 +5,7 @@ pipeline {
         }
     }
     environment {
-	RHT_OCP4_DEV_USER = kubeadmin
+	RHT_OCP4_DEV_USER = 'kubeadmin'
 	DEPLOYMENT_STAGE = 'shopping-cart-stage'
 	DEPLOYMENT_PRODUCTION = 'shopping-cart-production'
     }
